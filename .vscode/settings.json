@@ -1,0 +1,31 @@
+{
+  // vscode
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "never",
+    "source.fixAll.stylelint": "never"
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+
+  // ESLint
+  // ref: https://github.com/microsoft/vscode-eslint
+  // plugin: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+  "eslint.codeActionsOnSave.mode": "problems",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Typescript
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // YAML
+  "yaml.customTags": [
+    "!reference sequence" // ref: https://docs.gitlab.com/ee/ci/yaml/yaml_optimization.html#configure-your-ide-to-support-reference-tags
+  ]
+}

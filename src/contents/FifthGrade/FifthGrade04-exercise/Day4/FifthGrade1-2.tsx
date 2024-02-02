@@ -1,0 +1,16 @@
+import DayLayout from '../../Layout/Day4';
+import { FifthGrade4Day42 } from '../../utils/handleTitle';
+import FifthGrade11 from './FifthGrade11';
+
+const FifthGrade12Exercise: React.FC = () => {
+  return (
+    <DayLayout
+      title={FifthGrade4Day42.title}
+      subTitle={FifthGrade4Day42.subTitle}
+    >
+      <FifthGrade11 />
+    </DayLayout>
+  );
+};
+
+export default FifthGrade12Exercise;
